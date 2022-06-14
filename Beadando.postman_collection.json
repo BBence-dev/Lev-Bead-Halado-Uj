@@ -1,0 +1,490 @@
+{
+	"info": {
+		"_postman_id": "3dce0007-5f6d-4332-b579-f85a05d2802b",
+		"name": "Beadando",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21158756"
+	},
+	"item": [
+		{
+			"name": "allAdmin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allAdmin",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allAdmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAdmin?id=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getAdmin?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAdmin"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateAdmin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 2,\r\n        \"Name\": \"Lajos\",\r\n        \"smspassword\": \"W2sj3\",\r\n        \"name\": \"Lajos\",\r\n        \"password\": \"Valami\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateAdmin",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateAdmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateAdmin",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"Name\": \"Lajos\",\r\n        \"smspassword\": \"W2sj3\",\r\n        \"name\": \"Lajos\",\r\n        \"password\": \"Valami\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateAdmin",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateAdmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAdmin?id=1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/DeleteAdmin?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"DeleteAdmin"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allStudent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allStudent",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getStudent?id=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getStudent?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getStudent"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"Name\": \"Andi\",\r\n    \"diakiszam\": \"W1613\",\r\n    \"studentId\": \"W1613\",\r\n    \"name\": \"Andi\",\r\n    \"password\": \"Valami\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateStudent",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateStudent",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"Name\": \"Andi\",\r\n    \"diakiszam\": \"W1613\",\r\n    \"studentId\": \"W1613\",\r\n    \"name\": \"Andi\",\r\n    \"password\": \"Valami\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateStudent",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteStudent?id=1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/DeleteStudent?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"DeleteStudent"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allOktato",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allOktato",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allOktato"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOktato?id=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getOktato?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getOktato"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOktato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"Name\": \"Andi\",\r\n    \"office\": 1,\r\n    \"name\": \"Andi\",\r\n    \"password\": \"Valami\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateOktato",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateOktato"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateOktato",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"Name\": \"Andi\",\r\n    \"office\": 1,\r\n    \"name\": \"Andi\",\r\n    \"password\": \"Valami\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateOktato",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateOktato"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteOktato?id=1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/DeleteOktato?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"DeleteOktato"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "allUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUser?id=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getUser?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getUser"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"Name\": \"Nani\",\r\n    \"name\": \"Nani\",\r\n    \"password\": \"Jelszo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/CreateUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"CreateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"Name\": \"Na\",\r\n    \"name\": \"Nani\",\r\n    \"password\": \"Jelszo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/UpdateUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"UpdateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser?id=2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/DeleteUser?id=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"DeleteUser"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
